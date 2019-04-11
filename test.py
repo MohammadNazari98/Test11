@@ -4,4 +4,4 @@ def Fname():
 def Lname():
 	n = input("Enter your last name:")
 	return n
-print(Fname()+" "+Lname())
+print("{} {}".format(Fname,Lname))
